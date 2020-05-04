@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jasim.mobileappdevelop.icare" >
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.MainActivity"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.AddNewProfile"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.HomeScreen"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.BasicInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.MedicalInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.GrowthStatus"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.Doctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.AddDoctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.DoctorInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.MedicalCenter"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.MedicalCenterInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.AddMedicalCenter"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.Vaccine"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.Dose"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.Appointment"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.AddAppointment"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+        android:name="com.jasim.mobileappdevelop.icare.AppointmentDetails"
+        android:label="@string/app_name" >
+
+    </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.Diet"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.UpdateInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.UpdateDoctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.UpdateHealthCare"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.Notes"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.jasim.mobileappdevelop.icare.NotePage"
+            android:label="@string/app_name" >
+
+        </activity>
+    </application>
+
+</manifest>
