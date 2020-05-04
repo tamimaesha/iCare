@@ -1,4 +1,4 @@
 # iCare
 
-###  A personal Health Managemetn APP
+###  A personal Health Managemetn app
 ###### Description....
